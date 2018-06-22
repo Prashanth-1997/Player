@@ -1,12 +1,13 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-    char a[10],b[10];
+    char namea[10],nameb[10];
     int i,j,count=0;
-    scanf("%s %s",a,b);
-    for(i=0,j=0;a[i]!='\0',b[i]!='\0';i++,j++)
+    scanf("%s %s",namea,nameb);
+    for(i=0,j=0;namea[i]!='\0',nameb[i]!='\0';i++,j++)
     {
-        if(a[i]==b[i])
+        if(namea[i]==nameb[i])
         {
             count=1;
         }
